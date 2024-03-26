@@ -2,7 +2,7 @@ import { Vector3, MeshBasicMaterial, Mesh, Group, BoxGeometry, BufferGeometry, L
 
 import { Pathfinding } from "three-pathfinding";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
-import NavMeshUrl from "/static/gltf/NavMeshSimple.gltf";
+import NavMeshUrl from "/src/gltf/NavMeshSimple.gltf";
 
 const zeroVector = new Vector3(0, 0, 0);
 

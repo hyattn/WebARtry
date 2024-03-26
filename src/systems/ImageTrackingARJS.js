@@ -1,5 +1,4 @@
 import { Group, BoxGeometry, MeshNormalMaterial, DoubleSide, Mesh, Vector3, Quaternion, Euler, SphereGeometry } from "three";
-import { ARButton } from "three/addons/webxr/ARButton.js";
 import { ArToolkitSource, ArToolkitContext, ArMarkerControls } from "@ar-js-org/ar.js/three.js/build/ar-threex.js";
 
 let arToolkitSource, arToolkitContext, arHiroMarkerControls, arKanjiMarkerControls;

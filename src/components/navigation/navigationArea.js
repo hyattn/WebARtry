@@ -1,5 +1,5 @@
 import { MeshStandardMaterial, Vector3, Group, MathUtils, TextureLoader, Mesh } from "three";
-import SimpleRoomGltfUrl from "/static/gltf/SimpleRoom.gltf";
+import SimpleRoomGltfUrl from "/src/gltf/SimpleRoom.gltf";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 function setupNavigationAreaGeometry() {
